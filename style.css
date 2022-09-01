@@ -34,6 +34,7 @@ body {
     display: flex;
     padding: 50px 50px 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .left {
