@@ -12,7 +12,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding: 20px 50px;
 }
 
 .links {
@@ -32,7 +32,7 @@ body {
 
 .section_one {
     display: flex;
-    padding: 50px 50px;
+    padding: 50px 50px 100px;
     justify-content: space-between;
 }
 
@@ -69,10 +69,66 @@ body {
     font-weight: 500;
 }
 
-img {
+.section_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.sub_title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 25px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
     height: 200px;
     width: auto;
+    border-radius: 15px;
+    border: 2px solid #3882F6;
 }
+
+.text {
+    text-align: center;
+    font-size: 15px;
+}
+
+.section_three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.namethor {
+    font-weight: bolder;
+    text-align: right;
+    font-size: 20px;
+}
+
 
 ul {
     list-style-type: none;
