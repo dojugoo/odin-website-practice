@@ -30,6 +30,45 @@ body {
     margin: 0px;
 }
 
+.section_one {
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 6px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.right img {
+    width: 500px;
+    height: 200px;
+}
+
+.button_top {
+    color: #F9FaF8;
+    background-color: #3882F6;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 6px 20px;
+    width: 135px;
+    font-weight: 500;
+}
+
 img {
     height: 200px;
     width: auto;
